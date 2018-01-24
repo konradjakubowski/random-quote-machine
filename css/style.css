@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+body {
+    background-color: floralwhite;
+    
+}
+header > h1 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.quote {
+	font-family: 'Cookie', cursive;
+	padding: 50px;
+}
+.author {
+	font-family: 'Amatic SC', cursive;	
+	font-weight: bold;
+}
+.box {
+	background: rgba(255,255,255,0.7);
+	border-radius: 25px;
+	width: 40%;
+	margin: 0 auto;
+}
