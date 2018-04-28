@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Tajawal:400,500,700');
 
 body {
     background-color: floralwhite;
-    
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+}
+header {
+	padding-top: 50px;
 }
 header > h1 {
     font-family: 'Amatic SC', cursive;
@@ -24,4 +29,7 @@ header > h1 {
 	border-radius: 25px;
 	width: 40%;
 	margin: 0 auto;
+}
+.btn-default {
+	font-size: 20px;
 }
